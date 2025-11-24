@@ -1,4 +1,8 @@
+<p align = "center">
+
 # OpenLDAP
+
+</p>
 
 ![OpenLDAP](img/Gemini_Generated_Image_fntafwfntafwfnta.png)
 
@@ -9,7 +13,7 @@ Este repositorio documenta el proceso paso a paso para la instalación, configur
 ## 📋 Escenario de Red
 
 Se han utilizado dos máquinas virtuales con **Debian 13**:
-<p align = "center">
+
   
 | Rol | Hostname | IP | Dominio |
 | :--- | :--- | :--- | :--- |
