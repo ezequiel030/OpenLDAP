@@ -33,15 +33,15 @@ Por defecto, el servidor tiene los usuarios en su base de datos, pero el sistema
 ```bash
 sudo apt install libnss-ldap libpam-ldap nscd
  ```
-URI: ldap://localhost (o tu IP local 127.0.0.1).
+- [ ] URI: ldap://localhost (o tu IP local 127.0.0.1).
 
-Base DN: <BASE_DN> (Ej: dc=megainfo209,dc=com).
+- [ ] Base DN: <BASE_DN> (Ej: dc=megainfo209,dc=com).
 
-Versión: 3.
+- [ ] Versión: 3.
 
-Root local: Sí.
+- [ ] Root local: Sí.
 
-Login requerido: No.
+- [ ] Login requerido: No.
 
 #### B. Configuración de NSS (Name Service Switch): Editamos /etc/nsswitch.conf para que el servidor busque usuarios en su propio LDAP.
 ```bash
