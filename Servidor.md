@@ -40,7 +40,7 @@ sudo apt install slapd ldap-utils
 ```
 Durante la instalación se pedirá una contraseña para el administrador. Guárdala bien.
 
-3. Configuración del Cliente Local
+## 3. Configuración del Cliente Local
 Editamos este archivo para que el servidor sepa dónde buscarse a sí mismo por defecto.
 
 Fichero: /etc/ldap/ldap.conf
@@ -50,10 +50,10 @@ BASE    dc=megainfo209,dc=com
 # Ajusta la URI apuntando a tu servidor
 URI     ldap://localhost ldap://servidor209.megainfo209.com
 ```
-4. Estructura del Directorio (LDIFs)
+## 4. Estructura del Directorio (LDIFs)
 Creamos los archivos .ldif necesarios para definir la estructura de la organización.
 
-A. Estructura Base (base.ldif)
+### A. Estructura Base (base.ldif)
 Define las ramas para usuarios (people) y grupos (group).
 ```bash
 # Cambia 'dc=megainfo209,dc=com' por tu base DN en todo el archivo
@@ -72,7 +72,7 @@ Comando para insertar:
 # Recuerda cambiar el DN 'cn=admin...' según tu dominio
 ldapadd -x -W -D "cn=admin,dc=megainfo209,dc=com" -f base.ldif
 ```
-B. Grupos (sistemas.ldif)
+### B. Grupos (sistemas.ldif)
 ```bash
 # Cambia el DN según tu dominio
 dn: cn=sistemas,ou=group,dc=megainfo209,dc=com
@@ -85,7 +85,7 @@ Comando para insertar:
 ```bash
 ldapadd -x -W -D "cn=admin,dc=megainfo209,dc=com" -f sistemas.ldif
 ```
-C. Usuarios (juan.ldif)
+### C. Usuarios (juan.ldif)
 
 Para la contraseña, genérala antes con: slappasswd -h {MD5}.
 
