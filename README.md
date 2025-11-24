@@ -2,7 +2,7 @@
 
 ![OpenLDAP](img/Gemini_Generated_Image_fntafwfntafwfnta.png)
 
-Índice:
+ÍNDICE:
 
 [1. Instalación y configuración en el servidor](Servidor.md)
 
