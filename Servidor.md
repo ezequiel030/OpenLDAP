@@ -87,6 +87,7 @@ ldapadd -x -W -D "cn=admin,dc=megainfo209,dc=com" -f sistemas.ldif
 ```
 C. Usuarios (juan.ldif)
 Para la contraseña, genérala antes con: slappasswd -h {MD5}.
+
 Para la imagen de juan usamos el comando: base64 -w 0 imagen_juan(nombre de la imagen)
 ```bash
 dn: uid=juan,ou=people,dc=megainfo209,dc=com
