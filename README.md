@@ -1,8 +1,4 @@
-<p align = "center">
-
 # OpenLDAP
-
-</p>
 
 ![OpenLDAP](img/Gemini_Generated_Image_fntafwfntafwfnta.png)
 
@@ -20,7 +16,7 @@ Se han utilizado dos máquinas virtuales con **Debian 13**:
 | **Servidor** | `servidor209` | `192.168.1.29` | `megainfo209.com` |
 | **Cliente** | `cliente209` | `192.168.1.30` | `megainfo209.com` |
 
-</p>
+--- 
 
 ÍNDICE:
 
