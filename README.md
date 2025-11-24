@@ -8,12 +8,13 @@ Este repositorio documenta el proceso paso a paso para la instalación, configur
 
 ## 📋 Escenario de Red
 
-Se han utilizado dos máquinas virtuales con **Debian 12**:
-
+Se han utilizado dos máquinas virtuales con **Debian 13**:
+<p align = "center">
 | Rol | Hostname | IP | Dominio |
 | :--- | :--- | :--- | :--- |
 | **Servidor** | `servidor209` | `192.168.1.29` | `megainfo209.com` |
 | **Cliente** | `cliente209` | `192.168.1.30` | `megainfo209.com` |
+</p>
 
 ÍNDICE:
 
