@@ -123,3 +123,8 @@ chown -R 2000:2000 /home/juan # <--- El 2000 hace referencia al uidNumber y el s
 ls -al
 # Deberiamos ver los archivos que empiezan por .
 ```
+
+<p align="center">
+  <a href="README.md">🏠 Índice</a> |
+  <a href="Cliente.md">➡️ Siguiente</a>
+</p>
