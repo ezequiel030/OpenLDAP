@@ -124,3 +124,9 @@ Iniciar sesión como usuario LDAP:
 su - juan
 ```
 Debe pedir contraseña. Al entrar, deberías ver que se crea el directorio: Creating directory '/home/juan'.
+
+<p align="center">
+  <a href="Servidor.md">⬅️ Anterior</a> |
+  <a href="README.md">🏠 Índice</a> |
+  <a href="Comprobaciones_Servidor.md">➡️ Siguiente</a>
+</p>
