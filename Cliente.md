@@ -60,9 +60,9 @@ Una vez configurada la red, instalamos las librerías necesarias para la autenti
 sudo apt update
 sudo apt install libnss-ldap libpam-ldap nscd
 ```
-[] Durante la instalación aparecerá un asistente (pantallas azules). Rellena con los datos de tu servidor:
+. Durante la instalación aparecerá un asistente (pantallas azules). Rellena con los datos de tu servidor:
 
-[] URI del servidor LDAP: ldap://servidor209.megainfo209.com (Usa el nombre que definiste en /etc/hosts).
+[.] URI del servidor LDAP: ldap://servidor209.megainfo209.com (Usa el nombre que definiste en /etc/hosts).
 
 [] Base de búsqueda (DN): dc=megainfo209,dc=com (Tu base DN).
 
