@@ -73,3 +73,8 @@ getent group <NOMBRE_GRUPO>
 ✅ Éxito: Debe devolver: <NOMBRE_GRUPO>:*:2000:
 
 Si estas pruebas funcionan, tu servidor está perfectamente configurado y listo para recibir conexiones de clientes externos.
+
+<p align="center">
+  <a href="Cliente.md">⬅️ Anterior</a> |
+  <a href="README.md">🏠 Índice</a> 
+</p>
